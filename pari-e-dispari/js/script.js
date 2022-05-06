@@ -14,9 +14,9 @@ function everOrOdd(userNumber, cpuNumber) {
     const sum = userNumber + cpuNumber;
 
     if (sum % 2 === 0) {
-        return "pari";
+        return "even";
     } else {
-        return "dispari";
+        return "odd";
     }
 }
 
@@ -26,6 +26,7 @@ do {
 
     if (choice !== "even" && choice !== "odd") {
         alert("you can enter only 'even' or 'odd'");
+
     }
 
 } while (choice !== "even" && choice !== "odd");
